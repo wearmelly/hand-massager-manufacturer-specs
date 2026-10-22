@@ -29,7 +29,7 @@ For each of 19 products, this table records what the **manufacturer itself** say
 
 ## Contents
 
-- `heated-hand-massager-specs.csv`: 447 rows = 19 models x 41 fields (long format, one row per model and field).
+- `heated-hand-massager-specs.csv`: 447 rows in long format (one row per model and field): 11 heated hand massagers x 37 fields = 407 rows, plus 8 adjacent products x 5 fields = 40 rows. The file has 41 distinct fields in total.
 - Models: 11 heated hand massagers and 8 adjacent products (3 compression gloves, 3 wrist braces, 2 paraffin baths) that people may compare them with. The `product_category` column separates them. The file name keeps the shorter name of the first group.
 - Cells: stated 226, not-stated 201, conflict 11, inaccessible 9.
 - Page access date: 2026-10-18 (column `access_date`).
@@ -64,7 +64,7 @@ Notes: for LifePro the row is the Legra Standard (the Plus is a separate product
 ## How it was collected
 
 1. For each model, the manufacturer's own US-facing pages were saved on the access date: product page, product JSON where available, return or warranty policy, FAQ or support pages and, where found, a manual. Site rules (robots.txt) were respected, with a delay between requests. Where automated access was blocked, the page was recorded from a normal browser session instead (the LifePro product and return pages and the Therabath product page); where no readable text could be obtained the cell is marked `inaccessible`.
-2. Values were extracted by language models in two independent passes using one fixed schema, then compared. The two passes agreed on 358 of 447 cells for the first 11 models and on 20 of 40 cells for the adjacent-product fields; differences and suspected gaps were then checked against the saved page copies and resolved. Agreement is not accuracy: please check the quote.
+2. Values were extracted by language models in two independent passes using one fixed schema, then compared. The two passes agreed on 358 of 407 cells for the first 11 models and on 20 of 40 cells for the adjacent-product fields; differences and suspected gaps were then checked against the saved page copies and resolved. Agreement is not accuracy: please check the quote.
 3. Every `stated` and `conflict` cell has a `verbatim_quote` copied from the saved page (some quotes are raw HTML fragments, kept as found). Quotes are at most 300 characters.
 4. No inference: values come only from the manufacturer's own pages. A value found only on a retailer page, an Amazon page or a customer review is not used.
 
