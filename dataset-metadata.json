@@ -1,0 +1,18 @@
+{
+  "title": "Hand Massager Specs (Manufacturer-Stated)",
+  "id": "wearmelly/heated-hand-massager-specs",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "subtitle": "What 19 manufacturers state on their own pages: specs and return terms",
+  "description": "A table of what 19 manufacturers state on their own web pages about their products and return terms: 11 heated hand massagers plus 8 adjacent hand and wrist products (3 compression gloves, 3 wrist braces, 2 paraffin baths). 41 fields per model (heat, battery, auto shut-off, charging, controls, price, return window, return shipping, restocking fee, warranty and more), each cell marked stated, not-stated, conflict or inaccessible and backed by a verbatim quote from the manufacturer's page. Pages were read on 2026-10-18. Claims quoted are the manufacturers', not ours. This dataset makes no medical claims. Compiled by Wearmelly (wearmelly.com), which sells Melly, a heated hand massager not included in this dataset.",
+  "keywords": [
+    "consumer products",
+    "product data",
+    "hand massager",
+    "return policy",
+    "warranty"
+  ]
+}
